@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cmake_minimum_required(VERSION 3.16)
 
 project(H1 LANGUAGES CXX)
@@ -12,3 +13,19 @@ install(TARGETS H1
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+=======
+cmake_minimum_required(VERSION 3.16)
+
+project(H1 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(H1 main.cpp)
+
+include(GNUInstallDirs)
+install(TARGETS H1
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
+>>>>>>> 260978dd816d83302d983efffdd06629a0b7706a
