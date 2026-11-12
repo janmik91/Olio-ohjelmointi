@@ -1,12 +1,17 @@
 #ifndef STUDENT_H
 #define STUDENT_H
+#include <iostream>
+using namespace std;
 
 #include "person.h"
 
 class Student : public Person
 {
+private:
+    int studentId;
 public:
-    Student();
+    Student(string, int);
+    virtual void sayStatus() override;
 };
 
 #endif // STUDENT_H
