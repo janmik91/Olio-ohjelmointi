@@ -10,11 +10,11 @@ private:
     string model;
     int yearModel;
 public:
-    Car();
+    Car(string b, string m, int ym);
     void printData();
-    void setBrand(string);
-    void setModel(string);
-    void setYearModel(int);
+    void setBrand(string a);
+    void setModel(string b);
+    void setYearModel(int c);
 };
 
 #endif // CAR_H
