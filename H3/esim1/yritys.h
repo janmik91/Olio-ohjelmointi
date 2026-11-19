@@ -15,7 +15,7 @@ private:
     string toimiala;
 public:
     Yritys();
-    Yritys(const string &ni,const string &to);
+    Yritys(const string &ni,const string &to,);
     void tulostaYrityksenTiedot();
     void tulostaYrityksenHenkilot();
 };
