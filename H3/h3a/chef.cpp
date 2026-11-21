@@ -2,7 +2,7 @@
 
 Chef::Chef(string n):name(n)
 {
-    cout<<"Chef "<<name<<" on konstruktori"<<endl;
+    cout<<"Chef "<<name<<" konstruktori"<<endl;
 }
 
 void Chef::makeSalad()
@@ -17,5 +17,5 @@ void Chef::makeSoup()
 
 Chef::~Chef()
 {
-    cout<<"Chef "<<name<<" on destruktori"<<endl;
+    cout<<"Chef "<<name<<" destruktori"<<endl;
 }
